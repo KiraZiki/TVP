@@ -17,8 +17,13 @@ $cf -> setCPF("111.111.111-00");
 $cf -> mostrarDados();
 
 $cj = new ClienteJuridico();
-$cj -> setCNPJ("11.111.111.111-11");
+$cj -> setCodigo(2);
+$cj -> setNome("Daniel");
+$cj -> setIdade(41);
+$cj -> setCNPJ("111.111.111.111-00");
 $cj -> setIE("123456789");
+$cj -> mostrarDados();
+
 
 $teste = new Teste();
 $teste -> verificaIdade($cf);
